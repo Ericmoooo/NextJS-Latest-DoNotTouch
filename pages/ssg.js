@@ -9,7 +9,7 @@ export async function getStaticProps() {
 }
 
 export default function Page({ time }) {
-  const title = "Static Site Generation (SSG)";
+  const title = "Static Site Generation (SSG) - Changed";
 
   if (!time) {
     return (
